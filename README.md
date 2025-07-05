@@ -1,30 +1,40 @@
-July 4th Holiday Closure Popup
-This project contains a lightweight and responsive popup designed to notify website visitors of a Fourth of July business closure. The popup appears only once per user on their first visit to the homepage and can be dismissed easily.
+July 4th Holiday Closure Popup Snippet
+This repository contains a reusable HTML/CSS/JavaScript code snippet (popup-injection-code.html) for displaying a one-time popup alert announcing a Fourth of July business closure. It’s designed to be easily injected into an existing website without requiring a full page rewrite.
+
+📄 File: popup-injection-code.html
+This file does not include full HTML structure. It contains only:
+
+A <style> block (for popup design)
+
+A <script> block (for popup logic)
+
+The code is meant to be copy-pasted into your existing site’s index.html file.
 
 💡 Features
-✅ Appears only on the homepage (/)
+✅ Displays only on homepage (/)
 
-🧠 Remembers user dismissal using localStorage
+🧠 Uses localStorage to prevent showing again after dismissal
 
-🎨 Clean, responsive design with centered image banner
-
-📦 Built with vanilla JavaScript and inline CSS — no frameworks required
+🎨 Responsive full-screen overlay with centered image and styled button
 
 ⚡️ Smooth fade-out transition on close
+
+📦 No external libraries — built with plain HTML, CSS, and JavaScript
+
+🛠 How to Use
+Copy the <style> section into the <head> of your index.html.
+
+Copy the <script> section just before the closing </body> tag.
+
+Customize the image, styles, or button text as needed.
 
 📌 Use Case
 Ideal for:
 
-Small business websites needing to announce temporary closures
+Holiday or temporary closure alerts (e.g., July 4th)
 
-Seasonal or promotional banners
+Special announcements or promotional banners
 
-Lightweight UI enhancements without extra dependencies
+Small businesses needing quick and simple website updates
 
-📂 How to Use
-Add the <style> block to the <head> of your index.html.
-
-Add the <script> block just before the closing </body> tag.
-
-Replace the image URL and button text as needed for your use.
-
+📷 Preview: https://i.imgur.com/IpFJbvg.jpeg
