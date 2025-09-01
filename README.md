@@ -1,4 +1,3 @@
-July 4th Holiday Closure Popup Snippet
 This repository contains a reusable HTML/CSS/JavaScript code snippet (popup-injection-code.html) for displaying a one-time popup alert announcing a Fourth of July business closure. It’s designed to be easily injected into an existing website without requiring a full page rewrite.
 
 📄 File: popup-injection-code.html
